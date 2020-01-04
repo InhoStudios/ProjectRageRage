@@ -16,3 +16,6 @@ view_camera[0] = camera;
 follow = level_handler;
 xTo = x;
 yTo = y;
+
+vX = x - (viewWidth/2);
+vY = y - (viewHeight/2);

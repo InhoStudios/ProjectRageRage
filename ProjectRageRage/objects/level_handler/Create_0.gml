@@ -1,5 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
-multiplier = view.viewHeight;
-coefficient = 0;
-x = view.viewWidth/2;
+multipliery = view.viewHeight;
+coefficienty = 0;
+multiplierx = view.viewWidth;
+coefficientx = 0;
