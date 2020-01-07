@@ -2,10 +2,11 @@
 // You can write your code in this editor
 hsp = 0;
 vsp = 0;
-grav = 0.5;
-maxGrav = 2;
+fsp = 0;
+grav = 0.15;
+maxGrav = 1;
 mvsp = 2;
-jsp = 10;
+jsp = 5;
 depth = -5;
 umb = obj_umbrella;
 umbrella = instance_create_depth(x, y, depth + 1, umb);

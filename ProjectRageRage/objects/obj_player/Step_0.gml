@@ -3,7 +3,7 @@
 getInput();
 
 // vertical movement
-if(vsp < maxGrav) vsp += grav;
+if(fsp < maxGrav) fsp += grav;
 
 if(place_meeting(x, y + 1, obj_wall)) {
 	image_speed = 1;
@@ -14,8 +14,11 @@ if(place_meeting(x, y + 1, obj_wall)) {
 	} else {
 		hsp = !key_held * mvsp * (key_right - key_left);
 	}
-} 
+	
+	fsp = vsp;
+}
 
+if(fsp >= -.5) vsp = fsp;
 
 // vert collisions
 if(place_meeting(x, y + vsp, obj_wall)){
